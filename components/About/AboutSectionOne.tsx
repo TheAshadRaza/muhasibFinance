@@ -24,26 +24,26 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="We Like to know each other.."
+                paragraph="We are one of the leading financial services started up by young enthusiastic individuals who are highly qualified, academically strong enough to have  start-up which is fully loaded work experience.Mahasib financial is run by the young individual who are well."
                 mb="44px"
               />
 
               <div
                 className="wow fadeInUp mb-12 max-w-[570px] lg:mb-0"
-                data-wow-delay=".15s"
+                data-wow-delay=".15ss"
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="Premium Experience" />
+                    <List text="Trustworthy" />
+                    <List text="Choose for life" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="Satisfaction" />
+                    <List text="Loyality" />
+                    <List text="Truthfull" />
                   </div>
                 </div>
               </div>
