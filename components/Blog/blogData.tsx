@@ -23,7 +23,7 @@ const blogData: Blog[] = [
     image: "/images/blog/blog-02.png",
     author: {
       name: "Muhasib Financing Broker EST",
-      image: "/images/blog/author-02.png",
+      image: "/",
       designation: "",
     },
     tags: [""],
@@ -37,7 +37,7 @@ const blogData: Blog[] = [
     image: "/images/blog/blog-03.png",
     author: {
       name: "Lethium Deo",
-      image: "/images/blog/author-03.png",
+      image: "",
       designation: "Graphic Designer",
     },
     tags: ["design"],

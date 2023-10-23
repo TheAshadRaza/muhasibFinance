@@ -60,7 +60,7 @@ const Header = () => {
                   height={10}
                   className="w-full dark:hidden"
                 />
-              <span className="hidden w-full dark:block text-2xl font-bold text-center font-mono subpixel-antialiased tracking-widest">MUSAHIB FINANCING BROKER</span>
+              <span className="hidden w-full dark:block text-sm md:text-2xl font-bold text-center font-mono subpixel-antialiased tracking-widest">MUHASIB FINANCING BROKER</span>
 
                
               </Link>
