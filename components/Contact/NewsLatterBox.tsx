@@ -13,9 +13,11 @@ const NewsLatterBox = () => {
         Frij Al Murar Deira, Dubai - 21275
       </p>
      
-      <div className="location align-center flex " >
+      <div className="location align-center  shadow-2xl shadow-black" >
 
-      <iframe width="750" height="300" frameBorder={0} scrolling="no" marginHeight={0} marginWidth={0} id="gmap_canvas" src="https://maps.google.com/maps?width=600&amp;height=250&amp;hl=en&amp;q=Muhasib%20Finajncing%20Frij%20Al%20murar%20Dubai+(Muhasib%20Financing)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href='https://maps-generator.com/'></a>
+      <iframe className="flex flex-center md:w-full md:h-full" width={250} height={250} frameBorder={0} scrolling="no" marginHeight={0} marginWidth={0} 
+      id="gmap_canvas"
+     src="https://maps.google.com/maps?width=800&amp;height=550&amp;hl=en&amp;q=Muhasib%20Finajncing%20Frij%20Al%20murar%20Dubai+(Muhasib%20Financing)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href='https://maps-generator.com/'></a>
 
 
 

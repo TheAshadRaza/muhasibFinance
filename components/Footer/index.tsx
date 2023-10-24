@@ -146,7 +146,7 @@ const Footer = () => {
         <div className="bg-primary/10 py-8">
           <div className="container">
             <p className="text-center text-base text-body-color text-xl dark:text-white">
-             <a href="https://nextjstemplates.com" rel="nofollow noopener">© Copyright Muhasib Financing Broker Est. All Rights Reserved - 2022 </a>
+             <a href="https://nextjstemplates.com" rel="nofollow noopener">© All Rights Reserved 2022  | Muhasib Financing Broker Est. </a>
             <hr/>
             </p>
           </div>
