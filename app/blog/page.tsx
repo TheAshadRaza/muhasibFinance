@@ -11,12 +11,12 @@ const Blog = () => {
       />
 
       <section className="pt-[120px] pb-[140px]">
-        <div className="container">
-          <div className="-mx-4 flex flex-wrap justify-center">
+        <div className="container ">
+          <div className="-mx-12 flex flex-wrap justify-center">
             {blogData.map((blog) => (
               <div
                 key={blog.id}
-                className="w-full px-6 md:w-2/3 lg:w-1/2 xl:w-1/3"
+                className="w-full shadow-2xl hover:shadow-sm cursor-hower shadow-white py-6 px-8 mt-4 md:w-2/3 lg:w-1/2 xl:w-1/3"
               >
                 <SingleBlog blog={blog} />
               </div>
