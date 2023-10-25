@@ -16,7 +16,7 @@ const Blog = () => {
             {blogData.map((blog) => (
               <div
                 key={blog.id}
-                className="w-full shadow-2xl hover:shadow-sm cursor-hower shadow-white py-6 px-8 mt-4 md:w-2/3 lg:w-1/2 xl:w-1/3"
+                className="w-full shadow-2xl hover:shadow-sm cursor-hower shadow-white py-5 px-8 mt-4 md:w-1/3 lg:w-1/2 xl:w-1/3"
               >
                 <SingleBlog blog={blog} />
               </div>
