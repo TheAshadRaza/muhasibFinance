@@ -8,19 +8,19 @@ const blogData: Blog[] = [
       "We assess your capital structure, further requirements of funds, and provide optimal solutions. It starts from assessing your working capital requirements, goes through careful deliberation about best possible options, and selection and implementation of the best possible solution put to the table.      .",
     image: "/images/blog/blog-01.png",
     author: {
-      name: "Samuyl Joshi",
+      name: "Muhammad Ashad",
       image: "/images/blog/author-01.png",
-      designation: "Graphic Designer",
+      designation: "Software Eng.",
     },
     tags: ["creative"],
-    publishDate: "2025",
+    publishDate: "2022",
   },
   {
     id: 2,
     title: "MULTY CURRENCY ACCOUNT",
     paragraph:
       "Allows consumers and businesses to hold different currencies in one bank account. They can also send, receive and withdraw money from the account, as with a standard bank account but in multiple currencies.",
-    image: "/images/blog/blog-02.png",
+    image: "/images/blog/blog-02.jpg",
     author: {
       name: "Muhasib Financing Broker EST",
       image: "/",
@@ -34,7 +34,7 @@ const blogData: Blog[] = [
     title: "OPENING DIGITAL ACCOUNT",
     paragraph:
       "The first set of numbers on the left is the nine-digit bank routing number. The middle numbers are your account number. The third number is the number of the check.1.",
-    image: "/images/blog/blog-03.png",
+    image: "/images/blog/blog-03.jpg",
     author: {
       name: "Lethium Deo",
       image: "",
