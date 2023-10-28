@@ -11,8 +11,8 @@ const Features = () => {
       >
         <div className="container">
           <SectionTitle
-            title="Know Somthing More."
-            paragraph="Muhasib Can Be Your Trusted Partner."
+            title="Could be learn more. "
+            paragraph="We assure that muhasib can be your trusted partner."
             center
           />
 

@@ -3,9 +3,9 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "OPENING BUSINESS BANK ACCOUNT FOR ORGANIZATION",
+    title: "New Bank Account For your Business Organization",
     paragraph:
-      "We assess your capital structure, further requirements of funds, and provide optimal solutions. It starts from assessing your working capital requirements, goes through careful deliberation about best possible options, and selection and implementation of the best possible solution put to the table.      .",
+      "Navigate business finances effortlessly! Open a Business Account with us. Enjoy quick setup, digital convenience, and dedicated service. Your organization, our priority." ,
     image: "/images/blog/blog-01.png",
     author: {
       name: "Muhammad Ashad",
@@ -17,9 +17,9 @@ const blogData: Blog[] = [
   },
   {
     id: 2,
-    title: "MULTY CURRENCY ACCOUNT",
+    title: "Multi Currency Account",
     paragraph:
-      "Allows consumers and businesses to hold different currencies in one bank account. They can also send, receive and withdraw money from the account, as with a standard bank account but in multiple currencies.",
+      "Discover the freedom of a Multi-Currency Account! Manage multiple currencies effortlessly, enjoy real-time exchange rates, and conduct international transactions seamlessly. Your global finances simplified, all in one account.",
     image: "/images/blog/blog-02.jpg",
     author: {
       name: "Muhasib Financing Broker EST",
@@ -31,9 +31,9 @@ const blogData: Blog[] = [
   },
   {
     id: 3,
-    title: "OPENING DIGITAL ACCOUNT",
+    title: "Opening Digital Account",
     paragraph:
-      "The first set of numbers on the left is the nine-digit bank routing number. The middle numbers are your account number. The third number is the number of the check.1.",
+      "Instantly open a Digital Account online! Swift setup, easy transactions, and ultimate convenience at your fingertips. Your money, your control, anytime, anywhere",
     image: "/images/blog/blog-03.jpg",
     author: {
       name: "Lethium Deo",

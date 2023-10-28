@@ -7,7 +7,7 @@ const Blog = () => {
     <>
       <Breadcrumb
         pageName="Our Services"
-        description="We are offering wide ranges of Services."
+        description="Setting the Standard in Professional Financing."
       />
 
       <section className="pt-[120px] pb-[140px]">
@@ -20,6 +20,8 @@ const Blog = () => {
               >
                 <SingleBlog blog={blog} />
               </div>
+
+              
             ))}
           </div>
 
