@@ -5,8 +5,8 @@ const ContactPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Contact Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="Ready to Secure Your Financial Future? Contact Us!"
+        description="Ready to take the next step towards your financial goals? Reach out to Muhasib Financing Broker today. Let us guide you towards a secure financial future."
       />
 
       <Contact />

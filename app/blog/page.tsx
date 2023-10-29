@@ -6,8 +6,8 @@ const Blog = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Our Services"
-        description="Setting the Standard in Professional Financing."
+        pageName="Transforming Financial Visions into Reality"
+        description="Explore our range of services designed to cater to your specific needs, and let's embark on this transformative journey together. Your dreams are the destination, we provide the roadmap and support to get you there."
       />
 
       <section className="pt-[120px] pb-[140px]">
@@ -25,14 +25,14 @@ const Blog = () => {
             ))}
           </div>
 
-          <div
+          {/* <div
             className="wow fadeInUp -mx-4 flex flex-wrap"
             data-wow-delay=".15s"
           >
             <div className="w-full px-4">
               
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </>

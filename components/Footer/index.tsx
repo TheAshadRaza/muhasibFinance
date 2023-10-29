@@ -138,8 +138,8 @@ const Footer = () => {
         </div>
         <div className="bg-primary/10 py-8">
           <div className="container">
-            <p className="text-center text-base text-body-color text-xl dark:text-white">
-             <a href="https://nextjstemplates.com" rel="nofollow noopener">© All Rights Reserved 2022  | Muhasib Financing Broker Est. </a>
+            <p className="text-center text-base text-body-color text-xs md:text-sm dark:text-white">
+             <a href="" rel="nofollow noopener">© All Rights Reserved 2022  | Muhasib Financing Broker Est. </a>
             <hr/>
             </p>
           </div>

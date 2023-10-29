@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Ravi krishna",
+    designation: "",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "I was impressed by the personalized approach Muhasib Financing Broker took to understand my business's financial needs. Their tailored solutions not only saved me money but also optimized my cash flow. Highly recommended!.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Nafees Haider",
+    designation: "",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Muhasib Financing Broker's team is incredibly knowledgeable and responsive. They answered all my financial queries promptly and provided clear, concise advice. Working with them was a pleasure, and I feel much more secure about my financial future",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Mohammad Zaffar khan",
+    designation: "",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Muhasib Financing Broker exceeded my expectations. Their commitment to integrity and transparency sets them apart. I felt confident throughout the entire process, knowing I had a team of experts working in my best interest. Thank you for your outstanding service.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },

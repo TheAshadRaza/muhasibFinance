@@ -4,33 +4,33 @@ import Image from "next/image";
 const brandsData: Brand[] = [
   {
     id: 1,
-    name: "UIdeck",
-    href: "https://uideck.com",
-    image: "/images/brands/uideck.svg",
+    name: "Lixi Invest",
+    href: "https://lixi.org.au/",
+    image: "/images/brands/lixi.jpg",
   },
   {
     id: 2,
-    name: "Tailgrids",
-    href: "https://tailgrids.com",
-    image: "/images/brands/tailgrids.svg",
+    name: "For Finance",
+    href: "https://forfinancesake.com.au/",
+    image: "/images/brands/4fin.png",
   },
   {
     id: 3,
-    name: "Lineicons",
-    href: "https://lineicons.com",
-    image: "/images/brands/lineicons.svg",
+    name: "Bondra",
+    href: "https://www.banderabank.com/",
+    image: "/images/brands/bondra.webp",
   },
   {
     id: 4,
-    name: "GrayGrids",
-    href: "https://graygrids.com",
-    image: "/images/brands/graygrids.svg",
+    name: "Riverty",
+    href: "https://www.riverty.com/en/",
+    image: "/images/brands/riverty.webp",
   },
   {
     id: 5,
-    name: "TailAdmin",
-    href: "https://tailadmin.com",
-    image: "/images/brands/tailadmin.svg",
+    name: "Nordea",
+    href: "https://www.nordea.com/en",
+    image: "/images/brands/nordea.webp",
   },
 ];
 
@@ -41,9 +41,8 @@ const Brands = () => {
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
             <div
-              className="wow fadeInUp flex flex-wrap items-center justify-center rounded-md bg-dark py-8 px-8 dark:bg-primary dark:bg-opacity-5 sm:px-10 md:py-[40px] md:px-[50px] xl:p-[50px] 2xl:py-[60px] 2xl:px-[70px]"
-              data-wow-delay=".1s
-              "
+              className=" flex flex-wrap items-center justify-center rounded-md bg-dark py-8 px-8   sm:px-10 md:py-[40px] md:px-[50px] xl:p-[50px] 2xl:py-[60px] 2xl:px-[70px]"
+             
             >
               {brandsData.map((brand) => (
                 <SingleBrand key={brand.id} brand={brand} />
@@ -67,7 +66,7 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
         href={href}
         target="_blank"
         rel="nofollow noreferrer"
-        className="relative h-10 w-full opacity-70 grayscale transition hover:opacity-100 hover:grayscale-0 dark:opacity-60 dark:hover:opacity-100"
+        className="relative hover:scale-125  h-20 w-full "
       >
         <Image src={image} alt={name} fill />
       </a>

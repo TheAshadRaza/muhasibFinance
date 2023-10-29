@@ -18,12 +18,12 @@ const Hero = () => {
                 Empowering Dreams, One Loan at a Time. Your Expert Financing Broker ! 
                 </h1>
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                "Your Satisfaction, Our Commitment: Facilitating Finance from Banks and Financial Institutes Tailored to Your Needs."
+                "Your Satisfaction, Our Commitment Facilitating Finance from Banks and Financial Institutes Tailored to Your Needs."
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                
                  {/* put something here like copycontent */}
-
+               
 
 
                 </div>

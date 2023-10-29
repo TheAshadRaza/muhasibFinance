@@ -8,7 +8,7 @@ const Blog = () => {
       <div className="container">
         <SectionTitle
           title="Our Services"
-          paragraph="There are wide ranges of services that we are offering."
+          paragraph="Our Financial Solutions: Tailored to Your Needs."
           center
         />
 
