@@ -6,8 +6,9 @@ export default function whatsApp() {
   // Behavior: smooth keeps it smooth!
  
   function wpRedirect(){
+    
  window.open("https://w.app/MuhasibFinancingBrokerEst","_blank");
- 
+
   }
 
 
