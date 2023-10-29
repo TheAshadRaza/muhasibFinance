@@ -23,7 +23,7 @@ const Footer = () => {
                   <Image
                     src="/images/blog/logo.png"
                     alt=""
-                    className=" w-full"
+                    className=" md:w-full"
                     width={70}
                     height={10}
                   />
