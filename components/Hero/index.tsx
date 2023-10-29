@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Typewriter from "../Typewriter";
 
 const Hero = () => {
   return (
@@ -15,7 +16,7 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-5 text-3xl font-bold font-sans leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                Empowering Dreams, One Loan at a Time. Your Expert Financing Broker ! 
+                Empowering Dreams, One Loan at a Time.<span className="text-transparent bg-clip-text bg-gradient-to-r from-[#003cff] via-[#becf08] to-[#02eb29]"> <Typewriter text=" Your Expert Financing Broker !" delay={150} infinite /> </span>
                 </h1>
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
                 "Your Satisfaction, Our Commitment Facilitating Finance from Banks and Financial Institutes Tailored to Your Needs."
