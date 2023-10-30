@@ -38,7 +38,7 @@ const Testimonials = () => {
       <div className="container">
         <SectionTitle
           title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph="Join the ranks of satisfied clients who have turned their financial aspirations into reality with Muhasib Financing Broker. Read on to find out how we can make a difference in your financial journey."
           center
         />
 

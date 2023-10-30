@@ -1,6 +1,23 @@
+'use client';
+
 import NewsLatterBox from "./NewsLatterBox";
+import { useForm } from 'react-hook-form';
+import { sendEmail } from '@/utils/send-email';
+
+export type FormData = {
+  name: string;
+  email: string;
+  message: string;
+};
+
+
+function onSubmit(data: FormData) {
+  sendEmail(data);
+}
 
 const Contact = () => {
+const { register, handleSubmit } = useForm<FormData>();
+
   return (
     <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
       <div className="container">
@@ -17,7 +34,7 @@ const Contact = () => {
               <p className="mb-12 text-base font-medium text-body-color">
               Reach Out to Our Experts for Personalized Financial Guidance!
               </p>
-              <form>
+              <form onSubmit={handleSubmit(onSubmit)}>
                 <div className="-mx-4 flex flex-wrap">
                   <div className="w-full px-4 md:w-1/2">
                     <div className="mb-8">
@@ -29,9 +46,9 @@ const Contact = () => {
                       </label>
                       <input
                         type="text"
-                        placeholder="Enter your name"
+                        placeholder="Enter your full name"
                         className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
-                      />
+                        {...register('name', { required: true })} />
                     </div>
                   </div>
                   <div className="w-full px-4 md:w-1/2">
@@ -46,7 +63,7 @@ const Contact = () => {
                         type="email"
                         placeholder="Enter your email"
                         className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
-                      />
+                        {...register('email', { required: true })}/>
                     </div>
                   </div>
                   <div className="w-full px-4">
@@ -62,7 +79,7 @@ const Contact = () => {
                         rows={5}
                         placeholder="Enter your Message"
                         className="w-full resize-none rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
-                      ></textarea>
+                        {...register('message', { required: true })}></textarea>
                     </div>
                   </div>
                   <div className="w-full px-4">
