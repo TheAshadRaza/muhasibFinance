@@ -1,4 +1,4 @@
-import  {Blog}  from "@/types/blog";
+import  {Blog}  from "@/app/blog/page";
 import Image from "next/image";
 import Link from "next/link";
 const SingleBlog = ({ blog }: { blog: Blog }) => {
