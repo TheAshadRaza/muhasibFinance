@@ -1,7 +1,7 @@
-import  {Blog}  from "@/app/blog/page";
+import  blog  from "@/app/blog/page";
 import Image from "next/image";
 import Link from "next/link";
-const SingleBlog = ({ blog }: { blog: Blog }) => {
+const SingleBlog = ({ blog }: {  blog }) => {
   const { title, image, paragraph, author, tags, publishDate } = blog;
   return (
     <>
