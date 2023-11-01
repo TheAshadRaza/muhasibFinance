@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@babel/eslint-parser": "^7.22.15",
     "@emailjs/browser": "^3.11.0",
     "@next/font": "13.1.6",
     "@types/nodemailer": "^6.4.13",
