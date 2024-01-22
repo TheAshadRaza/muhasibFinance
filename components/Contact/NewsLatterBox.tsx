@@ -9,8 +9,8 @@ const NewsLatterBox = () => {
       </h3>
       <p className="mb-11 border-b border-body-color border-opacity-25 pb-11 text-base font-medium leading-relaxed dark:border-white dark:border-opacity-25">
         MUHASIB FINANCING BROKER EST.<br/>
-        Opposite Hayath Regency 4th floor 402<br/>
-        Frij Al Murar Deira, Dubai - 21275
+        Office 2/4 1 Pall Mall East, London, SW1Y 5AU, United Kingdom . <br/>
+
       </p>
      
       <div className="location mr-4" >
