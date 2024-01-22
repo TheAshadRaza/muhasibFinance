@@ -4,14 +4,17 @@ const NewsLatterBox = () => {
       className="wow fadeInUp relative z-10 rounded-md bg-primary/[3%] p-8 dark:bg-primary/10 sm:p-11 lg:p-8 xl:p-11"
       data-wow-delay=".2s"
     >
-      <h3 className="mb-4 text-2xl font-bold leading-tight text-black dark:text-white">
+      <h2 className="mb-4 text-2xl font-bold leading-tight text-black dark:text-white">
         Our Physical Location
-      </h3>
-      <p className="mb-11 border-b border-body-color border-opacity-25 pb-11 text-base font-medium leading-relaxed dark:border-white dark:border-opacity-25">
-        MUHASIB FINANCING BROKER EST.<br/>
-        Office 2/4 1 Pall Mall East, London, SW1Y 5AU, United Kingdom . <br/>
+      </h2>
 
-      </p>
+      
+  
+      <h3 className="mb-11 border-b border-body-color border-opacity-25 pb-11 text-base font-medium leading-relaxed dark:border-white dark:border-opacity-25">
+        Head Office .<br/>
+      <br/>
+       <p>  601 RANIA TOWER 6TH FLOOR,  AL BARSHA 1 , DUBAI , UAE</p>
+      </h3>
      
       <div className="location mr-4" >
 
