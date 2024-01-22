@@ -21,9 +21,7 @@ const NewsLatterBox = () => {
      
       <div className="location mr-4" >
 
-      <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3607.7757611092193!2d55.30646137538445!3d25.278127677658915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDE2JzQxLjMiTiA1NcKwMTgnMzIuNSJF!5e0!3m2!1sen!2sae!4v1698509594241!5m2!1sen!2sae" width="300" height="300" style={{border:0}}  loading="lazy" referrerPolicy="no-referrer-when-downgrade" allowFullScreen></iframe>
-
-
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.5727296853797!2d55.2045613!3d25.116320899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6bc01adfbe3d%3A0x433ae1ea35a7f636!2sQualityline%20Electro%20Mechanical%20LLC%D8%8C%20Rania%20Business%20Center%20-%20Office%20401%202nd%20St%20-%20Al%20Barsha%20-%20Al%20Barsha%201%20-%20Dubai!5e0!3m2!1sen!2sae!4v1705954419397!5m2!1sen!2sae" width="300" height="300" style={{border:0}}  loading="lazy" referrerPolicy="no-referrer-when-downgrade" allowFullScreen></iframe> 
 
 
       </div>
