@@ -5,7 +5,7 @@ const blogData: Blog[] = [
     id: 1,
     title: " INTERNAL AUDITING ",
     paragraph:
-      "Navigate business finances effortlessly! Open a Business Account with us. Enjoy quick setup, digital convenience, and dedicated service. Your organization, our priority." ,
+      "Navigating Financial Integrity: Our Audits, Your Assurance. Uncover, Analyze, Thrive – Together We Ensure Your Business's Financial Health." ,
     image: "/images/blog/blog-01.png",
     author: {
       name: "Muhammad Ashad",
@@ -19,7 +19,7 @@ const blogData: Blog[] = [
     id: 2,
     title: " CASH MANAGEMENT ",
     paragraph:
-      "Discover the freedom of a Multi-Currency Account! Manage multiple currencies effortlessly, enjoy real-time exchange rates, and conduct international transactions seamlessly. Your global finances simplified, all in one account.",
+      " Mastering Cash Flow, Empowering Success. Strategic Cash Management for a Resilient Financial Future ",
     image: "/images/blog/blog-02.jpg",
     author: {
       name: "Muhasib Financing Broker EST",
@@ -33,7 +33,7 @@ const blogData: Blog[] = [
     id: 3,
     title: " PAYMENT GATEWAY ",
     paragraph:
-      "Instantly open a Digital Account online! Swift setup, easy transactions, and ultimate convenience at your fingertips. Your money, your control, anytime, anywhere",
+     "Seamless Transactions, Secure Gateways. Empowering Your Business with Swift and Trustworthy Payment Solutions.",
     image: "/images/blog/blog-03.jpg",
     author: {
       name: "Lethium Deo",
@@ -47,7 +47,8 @@ const blogData: Blog[] = [
     id: 4,
     title: " COMPANY PAYROLL ",
     paragraph:
-      "An electronic salary transfer system that allows institutions to pay wages via banks, bureaux de change, and financial institutions approved and authorized to provide the service.",
+      
+"Precision in Payroll, Prosperity in People. Elevate Your Business with Accurate, Timely, and Hassle-Free Payroll Solutions.",
     image: "/images/blog/blog-04.jpg",
     author: {
       name: "Muhasib Financing Broker EST",
@@ -61,7 +62,7 @@ const blogData: Blog[] = [
     id: 5,
     title: " MANAGEMENT ",
     paragraph:
-      " In addition to documents that verify your identity, age, or address, you may also need to provide a minimum initial deposit when opening a bank account. A minimum initial deposit is an amount of money required by the bank upfront when opening a checking account, savings account, or certificate of deposit.",
+     "Elevate Efficiency, Empower Growth: Your Business, Our Expertise. Tailored Management Services for a Strategic Advantage.",
     image: "/images/blog/blog-05.jpg",
     author: {
       name: "Muhasib Financing Broker EST",
