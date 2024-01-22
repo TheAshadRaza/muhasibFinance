@@ -16,8 +16,8 @@ const NewsLatterBox = () => {
        <p>  601 RANIA TOWER 6TH FLOOR,  AL BARSHA 1 , DUBAI , UAE</p>
       </h3>
       <h3> Branches </h3>
-      <p> LEVEL 41, WEST TOWER, BAHRAIN FINANCIAL HUBOUR, KING FAISAL HIGHWAY, MANAMA BAHRAIN  </p><br/>
-      <P> OFFICE 2/4, 1 PALL MALL EAST, LONDON SW1Y 5AU , UNITED KINGDOM </P>
+      <p> LEVEL 41, WEST TOWER, BAHRAIN FINANCIAL HUBOUR, KING FAISAL HIGHWAY, MANAMA BAHRAIN  </p> <br/>
+      <p> OFFICE 2/4, 1 PALL MALL EAST, LONDON SW1Y 5AU , UNITED KINGDOM </p>
      
       <div className="location mr-4" >
 
