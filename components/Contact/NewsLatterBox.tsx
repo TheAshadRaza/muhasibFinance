@@ -7,17 +7,14 @@ const NewsLatterBox = () => {
       <h2 className="mb-4 text-2xl font-bold leading-tight text-black dark:text-white">
         Our Physical Location
       </h2>
-
       
-  
-   
         <p> MPM Properties 
         402, Al Khaleej road, Opp hayat regency, Dubai 21275 </p><hr/>
-      <h3 className="mb-11 border-b border-body-color border-opacity-25 pb-11 text-base font-medium leading-relaxed dark:border-white dark:border-opacity-25">
+      <h3 className="border-b border-body-color border-opacity-25 text-base font-medium leading-relaxed dark:border-white dark:border-opacity-25">
         HEAD OFFICE <br/>
       <br/>
        <p>  601 RANIA TOWER 6TH FLOOR,  AL BARSHA 1 , DUBAI , UAE</p>
-      </h3><hr/>
+      </h3>
       <h3> BRANCHES : </h3>
       <p> LEVEL 41, WEST TOWER, BAHRAIN FINANCIAL HUBOUR, KING FAISAL HIGHWAY, MANAMA BAHRAIN  </p>
       <br/>
