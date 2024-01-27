@@ -10,11 +10,12 @@ const NewsLatterBox = () => {
 
       
   
+   
+        <p> MPM Properties 
+        402, Al Khaleej road, Opp hayat regency, Dubai 21275 </p><hr/>
       <h3 className="mb-11 border-b border-body-color border-opacity-25 pb-11 text-base font-medium leading-relaxed dark:border-white dark:border-opacity-25">
         HEAD OFFICE <br/>
       <br/>
-        <p> MPM Properties 
-        402, Al Khaleej road, Opp hayat regency, Dubai 21275 </p>
        <p>  601 RANIA TOWER 6TH FLOOR,  AL BARSHA 1 , DUBAI , UAE</p>
       </h3><hr/>
       <h3> BRANCHES : </h3>
